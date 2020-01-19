@@ -14,7 +14,7 @@ from collections import defaultdict
 player_names = testUtility.createPlayers("Annie", "Ben", "Carla")
 
  #number of curses and victory cards
-if num_players>2:
+if len(player_names)>2:
     nV = 10
 else:
     nV = 8
